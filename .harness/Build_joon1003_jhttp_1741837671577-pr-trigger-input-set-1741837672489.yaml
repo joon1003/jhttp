@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_joon1003_jhttp_1741837671577-pr-trigger-input-set
+  identifier: Build_joon1003_jhttp_1741837671577prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: jhttp_lab
+  pipeline:
+    identifier: Build_joon1003_jhttp_1741837671577
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
